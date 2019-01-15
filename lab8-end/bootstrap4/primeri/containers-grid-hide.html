@@ -16,25 +16,20 @@
 		.w-col{
 			border: 1px solid white;
 		}
-
-		.row{
-			border: 1px solid red;
-		}
 	</style>
 
     <title>Hello, world!</title>
   </head>
   <body>
-	<!-- Change to container-fluid -->
     <div class="container">
 		<div>
 			<h1>Hello World!</h1>
 		</div>		
 
-		 
 		<div class="row">
-			<div class = "w-col col">
-				<h4>Lorem</h4>
+			<!-- display none not active ("blocked") for medium and bigger -->
+			<div class = "w-col col d-none d-md-block">
+				<h4>Lorem 1</h4>
 				Lorem ipsum dolor sit amet, nec no nostrum assentior, graeco salutandi et nam,
 				at mei elit aliquam. Quo aeque nominavi platonem an. Nec reque prompta urbanitas
 				in. Latine vivendo cu eum, usu te utroque appareat. Mei ad legendos salutandi
@@ -47,17 +42,9 @@
 				deseruisse no.
 			</div>
 		
-			<div class = "w-col col">
-				<h4>Lorem</h4>
-				Quot case aeterno an est, ne ullum tibique sed. Te possit labitur accommodare eum,
-				ad habemus convenire per, mel atqui oratio no. Et everti intellegebat est. Vim id
-				viderer lucilius deseruisse, mei debitis percipitur ex, usu case alterum ex. Eius
-				noster equidem cu mea, soleat nostrum at vel. Ius vitae vivendum imperdiet id. An
-				laoreet argumentum sit, pri ei vide mediocritatem, eu adipisci liberavisse ius.					
-			</div>
-
-			<div class = "w-col col">
-				<h4>Lorem</h4>
+			<!-- display none for large and bigger -->
+			<div class = "w-col col d-lg-none">
+				<h4>Lorem 2</h4>
 				Quot case aeterno an est, ne ullum tibique sed. Te possit labitur accommodare eum,
 				ad habemus convenire per, mel atqui oratio no. Et everti intellegebat est. Vim id
 				viderer lucilius deseruisse, mei debitis percipitur ex, usu case alterum ex. Eius
@@ -65,54 +52,17 @@
 				laoreet argumentum sit, pri ei vide mediocritatem, eu adipisci liberavisse ius.					
 			</div>
 		
+			<!-- display none, deactivated ("blocked") for medium, displayn non for large and bigger -->
+			<div class = "w-col col d-none d-md-block d-lg-none">
+				<h4>Lorem 3</h4>
+				Quot case aeterno an est, ne ullum tibique sed. Te possit labitur accommodare eum,
+				ad habemus convenire per, mel atqui oratio no. Et everti intellegebat est. Vim id
+				viderer lucilius deseruisse, mei debitis percipitur ex, usu case alterum ex. Eius
+				noster equidem cu mea, soleat nostrum at vel. Ius vitae vivendum imperdiet id. An
+				laoreet argumentum sit, pri ei vide mediocritatem, eu adipisci liberavisse ius.					
+			</div>
 		</div>
-		
-<!--
-		<div class="row">
-			<div class = "w-col col-lg-8 col-md-3 col-sm-6 col-xs-12">
-				<h4>Lorem</h4>
-				Lorem ipsum dolor sit amet, nec no nostrum assentior, graeco salutandi et nam,
-				at mei elit aliquam. Quo aeque nominavi platonem an. Nec reque prompta urbanitas
-				in. Latine vivendo cu eum, usu te utroque appareat. Mei ad legendos salutandi
-				adipiscing, nostrud suscipit pri te. Ex impetus sadipscing nam, mei feugait
-				deseruisse no.
-				Lorem ipsum dolor sit amet, nec no nostrum assentior, graeco salutandi et nam,
-				at mei elit aliquam. Quo aeque nominavi platonem an. Nec reque prompta urbanitas
-				in. Latine vivendo cu eum, usu te utroque appareat. Mei ad legendos salutandi
-				adipiscing, nostrud suscipit pri te. Ex impetus sadipscing nam, mei feugait
-				deseruisse no.
-			</div>
-		
-			<div class = "w-col col-lg-4 col-md-3 col-sm-6 col-xs-12">
-				<h4>Lorem</h4>
-				Quot case aeterno an est, ne ullum tibique sed. Te possit labitur accommodare eum,
-				ad habemus convenire per, mel atqui oratio no. Et everti intellegebat est. Vim id
-				viderer lucilius deseruisse, mei debitis percipitur ex, usu case alterum ex. Eius
-				noster equidem cu mea, soleat nostrum at vel. Ius vitae vivendum imperdiet id. An
-				laoreet argumentum sit, pri ei vide mediocritatem, eu adipisci liberavisse ius.					
-			</div>
 
-			<div class = "w-col col-lg-3 col-md-3 col-sm-6 col-xs-12">
-				<h4>Lorem</h4>
-				Lorem ipsum dolor sit amet, nec no nostrum assentior, graeco salutandi et nam,
-				at mei elit aliquam. Quo aeque nominavi platonem an. Nec reque prompta urbanitas
-				in. Latine vivendo cu eum, usu te utroque appareat. Mei ad legendos salutandi
-				adipiscing, nostrud suscipit pri te. Ex impetus sadipscing nam, mei feugait
-				deseruisse no.
-			</div>
-		
-			<div class = "w-col col-lg-3 col-md-3 col-sm-6 col-xs-12">
-				<h4>Lorem</h4>
-				Lorem ipsum dolor sit amet, nec no nostrum assentior, graeco salutandi et nam,
-				at mei elit aliquam. Quo aeque nominavi platonem an. Nec reque prompta urbanitas
-				in. Latine vivendo cu eum, usu te utroque appareat. Mei ad legendos salutandi
-				adipiscing, nostrud suscipit pri te. Ex impetus sadipscing nam, mei feugait
-				deseruisse no.
-			</div>
-
-	
-		</div>
--->
 	</div>
 
     <!-- Optional JavaScript -->
